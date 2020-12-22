@@ -32,6 +32,9 @@ markdown_extensions:
   - toc: # 锚点
       permalink: true
 
+plugins:
+  - search:
+      lang: jp
 
 extra:
   social:
