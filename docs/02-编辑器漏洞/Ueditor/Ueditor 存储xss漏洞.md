@@ -1,5 +1,9 @@
 # Ueditor xss存储漏洞
 
+
+
+直接文本框输入
+
 漏洞POC:
 
 ```xml
